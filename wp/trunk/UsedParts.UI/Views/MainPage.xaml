@@ -1,0 +1,95 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="UsedParts.UI.Views.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls" 
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:cal="clr-namespace:Caliburn.Micro;assembly=Caliburn.Micro"
+    xmlns:calAppBar="clr-namespace:Caliburn.Micro.BindableAppBar;assembly=Caliburn.Micro.BindableAppBar"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    toolkit:TiltEffect.IsTiltEnabled="True"
+    mc:Ignorable="d"
+    Style="{StaticResource DefaultPageStyle}"
+    shell:SystemTray.IsVisible="True" d:DesignHeight="768" d:DesignWidth="480">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <toolkit:PerformanceProgressBar
+                VerticalAlignment="Top"
+                Grid.Row="0"
+                IsIndeterminate="True"
+                Visibility="{Binding IsBusy, Converter={StaticResource BoolToVisibilityConverter}}" />
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,0">
+            <TextBlock x:Name="ApplicationTitle" Text="{Binding Title}" 
+                       Style="{StaticResource PhoneTextNormalStyle}"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <controls:Pivot x:Name="Items"  Grid.Row="1"
+                SelectedItem="{Binding ActiveItem, Mode=TwoWay}">
+            <controls:Pivot.HeaderTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Title}" Margin="0,-20,0,0"/>
+                </DataTemplate>
+            </controls:Pivot.HeaderTemplate>
+        </controls:Pivot>
+
+        <calAppBar:BindableAppBar x:Name="AppBar" BarOpacity="0.9">
+            <calAppBar:BindableAppBarButton 
+                Text="{Binding Resources.Filter, Source={StaticResource AppResourcesManager}}" 
+                IconUri="/Resources/AppBar/ApplicationBar.Filter.png" 
+                IsEnabled="{Binding IsBusy, Converter={StaticResource InvertedBoolConverter}}"                    
+                Visibility="{Binding IsFilter, Converter={StaticResource BoolToVisibilityConverter}}"
+                cal:Message.Attach="NavigateToFilter"
+            />
+            <calAppBar:BindableAppBarButton 
+                Text="{Binding Resources.Refresh, Source={StaticResource AppResourcesManager}}" 
+                IconUri="/Resources/AppBar/ApplicationBar.Refresh.png" 
+                IsEnabled="{Binding IsBusy, Converter={StaticResource InvertedBoolConverter}}"                    
+                cal:Message.Attach="Reload"
+                Click="OnReloadClick"
+            />            
+            
+            <calAppBar:BindableAppBarMenuItem
+                Visibility="{Binding IsAuthorized, Converter={StaticResource InvertedBoolToVisibilityConverter}}"
+                Text="{Binding Resources.Login, Source={StaticResource AppResourcesManager}}"
+                cal:Message.Attach="NavigateToLogin"
+            />
+            <calAppBar:BindableAppBarMenuItem
+                Visibility="{Binding IsAuthorized, Converter={StaticResource InvertedBoolToVisibilityConverter}}"
+                Text="{Binding Resources.Register, Source={StaticResource AppResourcesManager}}"
+                cal:Message.Attach="NavigateToRegistration"
+            />
+            <calAppBar:BindableAppBarMenuItem
+                Visibility="{Binding IsAuthorized, Converter={StaticResource BoolToVisibilityConverter}}"
+                Text="{Binding Resources.Profile, Source={StaticResource AppResourcesManager}}"
+                cal:Message.Attach="NavigateToProfile"
+            />
+            <calAppBar:BindableAppBarMenuItem
+                Visibility="{Binding IsAuthorized, Converter={StaticResource BoolToVisibilityConverter}}"
+                Text="{Binding Resources.Logout, Source={StaticResource AppResourcesManager}}"
+                cal:Message.Attach="Logout"
+            />
+            <calAppBar:BindableAppBarMenuItem
+                Text="{Binding Resources.Settings, Source={StaticResource AppResourcesManager}}"
+                cal:Message.Attach="NavigateToSettings"
+            />
+        </calAppBar:BindableAppBar>
+
+    </Grid>
+
+</phone:PhoneApplicationPage>

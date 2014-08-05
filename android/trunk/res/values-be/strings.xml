@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">pro.buzap.by</string>
+    <string name="manufacturers">Маркі</string>
+    <string name="login">Увайсці</string>
+    <string name="logout">Выйсці</string>
+    <string name="profile">Профіль</string>
+    <string name="registration">Рэгістрацыя</string>
+    <string name="username">E-mail</string>
+    <string name="password">Пароль</string>
+    <string name="ok">Ок</string>
+    <string name="cancel">Адмяніць</string>
+    <string name="loading">Загрузка...</string>
+    <string name="list_of_manufacturers">Спісак марак</string>
+    <string name="service_error">Памылка сервіса</string>
+    <string name="unexpected_error">Памылка</string>
+    <string name="form_validation_error">Памылка</string>
+    <string name="all">-УСЕ-</string>
+    <string name="order_offers">Прапановы</string>
+    <string name="order_details">Інфармацыя</string>
+    <string name="order_makeoffer">Прапанаваць</string>
+    <string name="login_success">Ок</string>
+    <string name="registration_success">Ок</string>
+    <string name="name">Імя</string>
+    <string name="phone">Тэлефон</string>
+
+    <string name="need_restart">Патрабуецца перазагрузка праграмы</string>
+    <string name="are_you_sure">Перазагрузіць?</string>
+    <string name="yes">Да</string>
+    <string name="no">Не</string>
+
+    <string name="no_orders">Няма заявак</string>
+    <string name="no_offers">Няма прапаноў</string>
+    <string name="total">Усяго знойдзена</string>
+    <string name="manufacturer">Марка</string>
+
+    <string name="orders">Заяўкі</string>
+    <string name="myOfferOrders">Мае заяўкі</string>
+    <string name="favoriteOrders">Закладкі</string>
+
+    <string name="order_details">Заяўка</string>
+
+    <string name="remove_from_bookmarks">Выдаліць з закладак</string>
+    <string name="add_to_bookmarks">Дадаць у закладкі</string>
+
+    <string name="profile_name">Імя</string>
+    <string name="profile_balance">Баланс</string>
+    <string name="profile_language">Мова інтэфейсу</string>
+    <string name="profile_phone">Тэлефон</string>
+    <string name="profile_email">E-mail</string>
+
+    <string name="email_error">Калі ласка, увядзіце правільны e-mail</string>
+    <string name="password_empty_error">Калі ласка, увядзіце пароль</string>
+    <string name="name_empty_error">Калі ласка, увяздіце імя</string>
+
+    <string name="need_authentication">Калі ласка, увайдзіце у сістэму пад сваім карыстальнікам</string>
+
+    <string name="make_offer">Прапанаваць</string>
+    <string name="make_offer_success">Праванова была паспяхова дададзена</string>
+    <string name="make_offer_price_error">Калі ласка, увядзіце правільны кошт у $</string>
+
+    <string name="photos">Фатадзымкі</string>
+    <string name="no_photos">-няма-</string>
+
+    <string name="choose_organization">Абярыце тып арганізацыі</string>
+    <integer-array name="organization_type_ids">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="organization_type_strings">
+        <item>Прыватаня асоба</item>
+        <item>ТАА</item>
+        <item>ІП</item>
+    </string-array>
+
+    <string-array name="language_ids">
+        <item>en</item>
+        <item>be</item>
+        <item>ru</item>
+    </string-array>
+    <string-array name="language_strings">
+        <item>Ангельская</item>
+        <item>Беларуская</item>
+        <item>Расейская</item>
+    </string-array>
+
+    <string name="price">Кошт (USD)</string>
+
+    <string name="choose_availability">час з\'яўлення</string>
+    <integer-array name="availability_ids">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+    <string-array name="availability_strings">
+        <item>--</item>
+        <item>зараз</item>
+        <item>1–3 дні</item>
+        <item>4–7 дзен</item>
+        <item>7+ дзен</item>
+    </string-array>
+
+    <string name="choose_warranty">Гарантыя</string>
+    <integer-array name="warranty_ids">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+    <string-array name="warranty_strings">
+        <item>--</item>
+        <item>няма</item>
+        <item>3 дні</item>
+        <item>7 дзен</item>
+        <item>іншае</item>
+    </string-array>
+
+    <string name="choose_delivery">Дастаўка</string>
+    <integer-array name="delivery_ids">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+    <string-array name="delivery_strings">
+        <item>--</item>
+        <item>няма</item>
+        <item>магчыма</item>
+        <item>бясплатная</item>
+        <item>платная</item>
+    </string-array>
+
+    <string name="choose_condition">Выгляд</string>
+    <integer-array name="condition_ids">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="condition_strings">
+        <item>--</item>
+        <item>вельмі дрэнны</item>
+        <item>дрэнны</item>
+        <item>нармальны</item>
+        <item>добры</item>
+        <item>выдатны</item>
+    </string-array>
+
+    <string name="availability">час з\'яўлення</string>
+    <string name="condition">выгляд</string>
+    <string name="delivery">дастаўка</string>
+    <string name="warranty">гарантыя</string>
+
+    <string name="select_picture">Абярыце здымак</string>
+    <string name="remove_image">Выдаліць</string>
+
+    <string name="filter">Фільтр</string>
+    <string name="refresh">Абнавіць</string>
+
+    <string name="please_login">Калі ласка, ўвайдзіце ў сістэму пад сваім карыстальнікам. Калі ў вас няма карыстальніка, зарэгістрыруйцеся</string>
+
+    <string name="car_count">Колькасць аўто</string>
+    <string name="offer_count">Колькасць прапаноў</string>
+
+</resources>
+

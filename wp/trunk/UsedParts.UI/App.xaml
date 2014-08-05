@@ -1,0 +1,160 @@
+﻿<Application xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:UsedParts.UI" 
+             xmlns:valueConverters="clr-namespace:UsedParts.UI.Converters"
+             xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+             xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+             xmlns:cal="clr-namespace:Caliburn.Micro;assembly=Caliburn.Micro"
+             xmlns:localization="clr-namespace:UsedParts.Localization;assembly=UsedParts.Localization"
+             x:Class="UsedParts.UI.App">
+    <Application.Resources>
+        <local:Bootstrapper x:Key="Bootstrapper"/>
+        <localization:AppResourcesManager x:Key="AppResourcesManager"/>
+        <valueConverters:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
+        <valueConverters:BoolToVisibilityConverter x:Key="InvertedBoolToVisibilityConverter" IsInverted="True"/>
+        <valueConverters:FileToImageSourceConverter x:Key="FileToImageSourceConverter"/>
+        <valueConverters:InvertedBoolConverter x:Key="InvertedBoolConverter"/>
+        <valueConverters:ToggleSwitchContentConverter x:Key="ToggleSwitchContentConverter"/>
+        <valueConverters:OrderColorConverter x:Key="OrderColorConverter"/>
+
+
+        <Style x:Key="DefaultPageStyle" TargetType="phone:PhoneApplicationPage">
+            <Setter Property="toolkit:TransitionService.NavigationInTransition">
+                <Setter.Value>
+                    <toolkit:NavigationInTransition>
+                        <toolkit:NavigationInTransition.Backward>
+                            <toolkit:TurnstileTransition Mode="BackwardIn"/>
+                        </toolkit:NavigationInTransition.Backward>
+                        <toolkit:NavigationInTransition.Forward>
+                            <toolkit:TurnstileTransition Mode="ForwardIn"/>
+                        </toolkit:NavigationInTransition.Forward>
+                    </toolkit:NavigationInTransition>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="toolkit:TransitionService.NavigationOutTransition">
+                <Setter.Value>
+                    <toolkit:NavigationOutTransition>
+                        <toolkit:NavigationOutTransition.Backward>
+                            <toolkit:TurnstileTransition Mode="BackwardOut"/>
+                        </toolkit:NavigationOutTransition.Backward>
+                        <toolkit:NavigationOutTransition.Forward>
+                            <toolkit:TurnstileTransition Mode="ForwardOut"/>
+                        </toolkit:NavigationOutTransition.Forward>
+                    </toolkit:NavigationOutTransition>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+
+        <Style TargetType="ListBoxItem">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="VerticalContentAlignment" Value="Top"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ListBoxItem">
+                        <Border x:Name="LayoutRoot" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" HorizontalAlignment="{TemplateBinding HorizontalAlignment}" VerticalAlignment="{TemplateBinding VerticalAlignment}">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="MouseOver"/>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="LayoutRoot">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource TransparentBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <DoubleAnimation Duration="0" To=".5" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="ContentContainer"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                                <VisualStateGroup x:Name="SelectionStates">
+                                    <VisualState x:Name="Unselected"/>
+                                    <VisualState x:Name="Selected">
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <StackPanel x:Name="border" Orientation="Horizontal">
+                                <ContentControl x:Name="ContentContainer" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" Foreground="{TemplateBinding Foreground}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                            </StackPanel>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        
+        <DataTemplate x:Key="OrderTemplate">
+            <Grid Margin="12,0,0,16" 
+                  Width="440"
+                  cal:Message.Attach="[Event Tap] = [Action NavigateToOffers($dataContext)]"                  
+                  >
+                <toolkit:ContextMenuService.ContextMenu 
+                    >
+                    <toolkit:ContextMenu Name="ContextMenu" 
+                                         cal:Action.TargetWithoutContext="{Binding DataContext, ElementName=Self}"
+                                         >
+                        <toolkit:MenuItem Header="{Binding Resources.AddToFavorites, Source={StaticResource AppResourcesManager}}"
+                                          />
+                        <toolkit:MenuItem Header="{Binding Resources.RemoveFromFavorites, Source={StaticResource AppResourcesManager}}"
+                                          />
+                    </toolkit:ContextMenu>
+                </toolkit:ContextMenuService.ContextMenu>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Border Grid.Column="0" Margin="0,0,0,8">
+                        <StackPanel>
+                            <TextBlock FontSize="{StaticResource PhoneFontSizeMedium}" 
+                                   Text="{Binding Name}"
+                                       Margin="0,0,32,4"
+                                           LineStackingStrategy="BlockLineHeight"
+                                           LineHeight="26"
+                                           FontWeight="SemiBold"
+                                   TextWrapping="Wrap"
+                                       Grid.Column="0"
+                                   >
+                            </TextBlock>
+
+                            <TextBlock FontSize="{StaticResource PhoneFontSizeSmall}" 
+                                   Text="{Binding Body}"
+                                   TextWrapping="Wrap"
+                                           Margin="0,0,0,4"
+                                   >
+                            </TextBlock>
+                            <TextBlock FontSize="{StaticResource PhoneFontSizeMedium}" 
+                                   TextWrapping="Wrap"
+                                   Foreground="Gray"
+                                           FontWeight="SemiBold"
+                                   Text="{Binding Posted}" >
+                            </TextBlock>
+                        </StackPanel>
+
+                    </Border>
+
+                </Grid>
+
+                <Border Visibility="{Binding IsPrimaryImage, Converter={StaticResource BoolToVisibilityConverter}}"
+                        Background="LightGray"
+                        BorderBrush="{StaticResource PhoneBackgroundBrush}"
+                        BorderThickness="1"
+                        VerticalAlignment="Top"
+                        HorizontalAlignment="Right"
+                        Width="100" Height="100">
+                    <Image Width="100" Height="100" 
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"
+                           Source="{Binding PrimaryImage}" />
+                </Border>
+
+            </Grid>
+
+        </DataTemplate>
+
+    </Application.Resources>
+</Application>
+    

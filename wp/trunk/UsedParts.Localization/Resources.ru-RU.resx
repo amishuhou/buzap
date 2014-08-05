@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Add" xml:space="preserve">
+    <value>добавить</value>
+  </data>
+  <data name="AddImage" xml:space="preserve">
+    <value>добавить фото</value>
+  </data>
+  <data name="AddImageFromSaved" xml:space="preserve">
+    <value>добавить фото из сохраненных</value>
+  </data>
+  <data name="AddImageUsingCamera" xml:space="preserve">
+    <value>сделать фото</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>PRO.BUZAP.BY</value>
+  </data>
+  <data name="Availability" xml:space="preserve">
+    <value>Доступно</value>
+  </data>
+  <data name="Bad" xml:space="preserve">
+    <value>плохое</value>
+  </data>
+  <data name="Condition" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
+  <data name="D3" xml:space="preserve">
+    <value>3 дня</value>
+  </data>
+  <data name="D7" xml:space="preserve">
+    <value>7 дней</value>
+  </data>
+  <data name="Delivery" xml:space="preserve">
+    <value>Доставка</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="Free" xml:space="preserve">
+    <value>бесплатно</value>
+  </data>
+  <data name="From1To3" xml:space="preserve">
+    <value>1-3 дня</value>
+  </data>
+  <data name="From4To7" xml:space="preserve">
+    <value>4-7 дней</value>
+  </data>
+  <data name="Generic_ServerBusinessErrorTitle" xml:space="preserve">
+    <value>Ошибка сервиса</value>
+  </data>
+  <data name="Generic_UnknownServerErrorBody" xml:space="preserve">
+    <value>Извините</value>
+  </data>
+  <data name="Generic_UnknownServerErrorTitle" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="Good" xml:space="preserve">
+    <value>хорошее</value>
+  </data>
+  <data name="Ip" xml:space="preserve">
+    <value>ИП</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>загрузка...</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>войти</value>
+  </data>
+  <data name="LoginTitle" xml:space="preserve">
+    <value>войти</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>выйти</value>
+  </data>
+  <data name="MakeOfferTitle" xml:space="preserve">
+    <value>предложить</value>
+  </data>
+  <data name="ManufacturersTitle" xml:space="preserve">
+    <value>марки</value>
+  </data>
+  <data name="Mint" xml:space="preserve">
+    <value>отличное</value>
+  </data>
+  <data name="MoreThan7" xml:space="preserve">
+    <value>7+ дней</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>нет</value>
+  </data>
+  <data name="NonFree" xml:space="preserve">
+    <value>платно</value>
+  </data>
+  <data name="NoOffers" xml:space="preserve">
+    <value>Нет предложений</value>
+  </data>
+  <data name="NoOrders" xml:space="preserve">
+    <value>Нет заявок</value>
+  </data>
+  <data name="Normal" xml:space="preserve">
+    <value>нормальное</value>
+  </data>
+  <data name="Now" xml:space="preserve">
+    <value>сейчас</value>
+  </data>
+  <data name="OffersTitle" xml:space="preserve">
+    <value>предложения</value>
+  </data>
+  <data name="Ooo" xml:space="preserve">
+    <value>ООО</value>
+  </data>
+  <data name="OrderDetailsTitle" xml:space="preserve">
+    <value>подробно</value>
+  </data>
+  <data name="OrdersTitle" xml:space="preserve">
+    <value>заявки</value>
+  </data>
+  <data name="OrganizationType" xml:space="preserve">
+    <value>Тип организации</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>другое</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Телефон</value>
+  </data>
+  <data name="Possible" xml:space="preserve">
+    <value>возможно</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Цена (USD)</value>
+  </data>
+  <data name="Private" xml:space="preserve">
+    <value>Частное лицо</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>зарегистрироваться</value>
+  </data>
+  <data name="Registration" xml:space="preserve">
+    <value>Регистрация</value>
+  </data>
+  <data name="RegistrationTitle" xml:space="preserve">
+    <value>регистрация</value>
+  </data>
+  <data name="RemoveImage" xml:space="preserve">
+    <value>удалить фото</value>
+  </data>
+  <data name="VeryBad" xml:space="preserve">
+    <value>очень плохое</value>
+  </data>
+  <data name="Warranty" xml:space="preserve">
+    <value>Гарантия</value>
+  </data>
+  <data name="Empty" xml:space="preserve">
+    <value>--</value>
+  </data>
+  <data name="AllManufacturers" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="PleaseLoginOrRegister" xml:space="preserve">
+    <value>Данное действие доступно только для авторизованных пользователей. 
+Пожалуйста, войдите в систему под вашей учетной записью или создайте новую.</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>профиль</value>
+  </data>
+  <data name="Balance" xml:space="preserve">
+    <value>Баланс</value>
+  </data>
+  <data name="CarsCount" xml:space="preserve">
+    <value>Кол-во авто</value>
+  </data>
+  <data name="OffersCount" xml:space="preserve">
+    <value>Кол-во предложений</value>
+  </data>
+  <data name="ProfileTitle" xml:space="preserve">
+    <value>профиль</value>
+  </data>
+  <data name="Generic_DoYouWantToSendErrorReport" xml:space="preserve">
+    <value>Вы хотите отправить отчет об ошибке? Данная информация поможет нам быстро исправить эту проблему</value>
+  </data>
+  <data name="Generic_UnknownError" xml:space="preserve">
+    <value>Ошибка приложения</value>
+  </data>
+  <data name="Generic_WebError" xml:space="preserve">
+    <value>Пожалуйста проверьте свое интернет соединение</value>
+  </data>
+  <data name="MakeOffer" xml:space="preserve">
+    <value>новое предл.</value>
+  </data>
+  <data name="AllOrdersTitle" xml:space="preserve">
+    <value>все заявки</value>
+  </data>
+  <data name="Any" xml:space="preserve">
+    <value>любая</value>
+  </data>
+  <data name="FavOrdersTitle" xml:space="preserve">
+    <value>избранное</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>фильтр</value>
+  </data>
+  <data name="FilterAndTotalFormat" xml:space="preserve">
+    <value>найдено: {0}, марка: {1}</value>
+  </data>
+  <data name="MyOrdersTitle" xml:space="preserve">
+    <value>мои заявки</value>
+  </data>
+  <data name="NeedAuthorization" xml:space="preserve">
+    <value>Требуется авторизация</value>
+  </data>
+  <data name="Notifications" xml:space="preserve">
+    <value>Уведомления о новых заявках</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>обновить</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>настройки</value>
+  </data>
+  <data name="SettingsTitle" xml:space="preserve">
+    <value>настройки</value>
+  </data>
+  <data name="AddToFavorites" xml:space="preserve">
+    <value>добавить в избранное</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="RemoveFromFavorites" xml:space="preserve">
+    <value>удалить из избранного</value>
+  </data>
+</root>

@@ -1,0 +1,32 @@
+﻿<UserControl x:Class="UsedParts.UI.Views.Main.MyOrdersView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Controls="clr-namespace:UsedParts.UI.Views.Controls"
+             xmlns:cal="clr-namespace:Caliburn.Micro;assembly=Caliburn.Micro" mc:Ignorable="d"
+    >
+    
+    <Grid>
+        <StackPanel
+            Margin="0,0,0,80"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            Visibility="{Binding IsAuthorized, Converter={StaticResource InvertedBoolToVisibilityConverter}}"
+            >
+            <TextBlock 
+                
+                Text="{Binding Resources.NeedAuthorization, Source={StaticResource AppResourcesManager}}" TextWrapping="Wrap">
+            </TextBlock>
+            <Button Content="{Binding Resources.Login, Source={StaticResource AppResourcesManager}}" 
+                    cal:Message.Attach="[Event Tap] = [Action NavigateToLogin]" />
+        </StackPanel>
+
+        <Controls:Orders/>
+
+    </Grid>
+
+    
+
+</UserControl>
+

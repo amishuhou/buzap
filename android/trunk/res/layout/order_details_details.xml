@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingLeft="5dp"
+              android:paddingRight="5dp"
+
+        >
+
+
+
+    <TextView
+            android:id="@+id/textOrderName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ellipsize="marquee"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            />
+    <TextView
+            android:id="@+id/textOrderBody"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp" />
+    <TextView
+            android:id="@+id/textOrderPosted"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            style="@style/date"
+            />
+
+    <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/offerImagesListView"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="left|center_vertical"/>
+
+
+</LinearLayout>

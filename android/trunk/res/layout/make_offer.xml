@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--android:layout_width="fill_parent"-->
+<!--android:layout_height="fill_parent">-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TextView android:text="@string/price"
+              style="@style/formLabel"
+            />
+    <EditText android:id="@+id/editPrice"
+              android:inputType="number"
+              style="@style/formControl"
+            />
+
+    <TextView android:text="@string/choose_warranty"
+              style="@style/formLabel"
+            />
+    <Spinner
+            android:id="@+id/spinnerWarranty"
+            android:entries="@array/warranty_strings"
+            style="@style/formControl"
+            />
+
+    <TextView android:text="@string/choose_delivery"
+              style="@style/formLabel"
+            />
+    <Spinner
+            android:id="@+id/spinnerDelivery"
+            android:entries="@array/delivery_strings"
+            style="@style/formControl"
+            />
+
+    <TextView android:text="@string/choose_condition"
+              style="@style/formLabel"
+            />
+    <Spinner
+            android:id="@+id/spinnerCondition"
+            android:entries="@array/condition_strings"
+            style="@style/formControl"
+            />
+
+    <TextView android:text="@string/choose_availability"
+              style="@style/formLabel"
+            />
+    <Spinner
+            android:id="@+id/spinnerAvailability"
+            android:entries="@array/availability_strings"
+            style="@style/formControl"
+            />
+
+    <TextView android:text="@string/photos"
+              style="@style/formLabel"
+            />
+
+    <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/select_picture"-->
+            <!--android:id="@+id/buttonAddImage"-->
+            <!--android:layout_gravity="left|center_vertical"-->
+            <!--android:onClick="onAddImageClick"-->
+            <!--android:singleLine="true"/>-->
+
+    <TextView android:text="@string/no_photos"
+              style="@style/formLabel"
+              android:paddingLeft="5dp"
+              android:id="@+id/textNoPhotos"
+            />
+
+    <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imagesListView"
+            android:layout_gravity="left|center_vertical"/>
+
+
+</LinearLayout>
+

@@ -1,0 +1,1166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidDesignerProfile">
+    <option name="fullProfile">
+      <profile>
+        <option name="device" value="2.7in QVGA" />
+        <option name="deviceConfiguration" value="Portrait" />
+        <option name="localeLanguage" value="en" />
+        <option name="targetHashString" value="android-14" />
+        <option name="theme" value="Theme.AppCompat" />
+      </profile>
+    </option>
+    <option name="selection" value="[Full]" />
+  </component>
+  <component name="AndroidLayoutPreviewToolWindow">
+    <option name="state">
+      <GlobalState>
+        <option name="device" value="2.7in QVGA" />
+        <option name="dockMode" value="" />
+        <option name="nightMode" value="notnight" />
+        <option name="targetHashString" value="android-18" />
+        <option name="theme" value="Theme" />
+        <option name="visible" value="false" />
+      </GlobalState>
+    </option>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="UsedParts" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="048e4437-8067-4efc-bd96-6eec34c7ffcf" name="Default" comment="- language selector implemented&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values-be" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values-be/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/usedparts/ui/base/LocalizationActivity.java" afterPath="$PROJECT_DIR$/src/com/usedparts/ui/base/LocalizationActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/usedparts/ui/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/usedparts/ui/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/usedparts/ui/adapters/OrderListViewAdapter.java" afterPath="$PROJECT_DIR$/src/com/usedparts/ui/adapters/OrderListViewAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/usedparts/services/impl/RestDataClient.java" afterPath="$PROJECT_DIR$/src/com/usedparts/services/impl/RestDataClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/border_counter.xml" afterPath="$PROJECT_DIR$/res/drawable-hdpi/border_counter.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/border_counter_active.xml" afterPath="$PROJECT_DIR$/res/drawable-hdpi/border_counter_active.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/list_offer.xml" afterPath="$PROJECT_DIR$/res/layout/list_offer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/list_order.xml" afterPath="$PROJECT_DIR$/res/layout/list_order.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/menu/main.xml" afterPath="$PROJECT_DIR$/res/menu/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/orders.xml" afterPath="$PROJECT_DIR$/res/layout/orders.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-ru/strings.xml" afterPath="$PROJECT_DIR$/res/values-ru/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/styles.xml" afterPath="$PROJECT_DIR$/res/values/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="UsedParts.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="$PROJECT_DIR$/gen/com/UsedParts/ui/R.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1383175998569" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/com/UsedParts/ui/Manifest.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1383175998569" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/com/UsedParts/ui/BuildConfig.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1383175998569" ignored="false" />
+    <file path="/fragment.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1396393127133" ignored="false" />
+    <file path="/AccountInfo.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1385478176215" ignored="false" />
+    <file path="/Manufacturer.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1383876506371" ignored="false" />
+    <file path="/Offer.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1392858149027" ignored="false" />
+    <file path="/Order.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1392858109669" ignored="false" />
+    <file path="/DataClient.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1395023376167" ignored="false" />
+    <file path="/RestClient.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1390527543739" ignored="false" />
+    <file path="/RestDataClient.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1398608340220" ignored="false" />
+    <file path="/OrdersResult.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1393693807905" ignored="false" />
+    <file path="/AuthResult.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1383697025264" ignored="false" />
+    <file path="/Dummy.txt" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1400806664936" ignored="false" />
+    <file path="/Response.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1384817945199" ignored="false" />
+    <file path="/JsonMapper.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1384812565157" ignored="false" />
+    <file path="/JacksonJsonMapper.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1384617616415" ignored="false" />
+    <file path="/MainActivity.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1398616754189" ignored="false" />
+    <file path="/SettingsManager.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1392251822456" ignored="false" />
+    <file path="/InMemorySettingsManager.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1385080329658" ignored="false" />
+    <file path="/TestServiceTask.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1383766536472" ignored="false" />
+    <file path="/main.xml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1400808103083" ignored="false" />
+    <file path="/strings.xml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1398613701647" ignored="false" />
+    <file path="/login.xml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1393689329907" ignored="false" />
+    <file path="/registration.xml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1393689446303" ignored="false" />
+    <file path="/LoginActivity.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1396306683080" ignored="false" />
+    <file path="/RegistrationActivity.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1396306752981" ignored="false" />
+    <file path="/Item.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1383876519156" ignored="false" />
+    <file path="/list_manufacturer.xml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1396306918936" ignored="false" />
+    <file path="/orders.xml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1398615490280" ignored="false" />
+    <file path="/OrdersActivity.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1386109081802" ignored="false" />
+    <file path="/ManufacturerArrayAdapter.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1384208057969" ignored="false" />
+    <file path="/ServiceActivity.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1395024029494" ignored="false" />
+    <file path="/JsonMapperEx.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1390520892755" ignored="false" />
+    <file path="/JacksonJsonMapperEx.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1390520847780" ignored="false" />
+    <file path="/ServiceException.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1384813079622" ignored="false" />
+    <file path="/OrdersArrayAdapter.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1384906283238" ignored="false" />
+    <file path="/list_order.xml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1398617262438" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1400807888156" ignored="false" />
+    <file path="/order.xml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1384977665673" ignored="false" />
+    <file path="/order_details.xml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1395497467324" ignored="false" />
+    <file path="/OrderDetailsActivity.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1395613202965" ignored="false" />
+    <file path="/DetailsActivity.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1384987740914" ignored="false" />
+    <file path="/OffersActivity.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1384987766832" ignored="false" />
+    <file path="/order_details_details.xml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1393810039862" ignored="false" />
+    <file path="/order_details_offers.xml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1384980366561" ignored="false" />
+    <file path="/OrderActivity.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1384980889128" ignored="false" />
+    <file path="/OrderTabActivity.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1384982540619" ignored="false" />
+    <file path="/MakeOfferActivity.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1395616049950" ignored="false" />
+    <file path="/OfferListViewAdapter.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1392858194347" ignored="false" />
+    <file path="/list_offer.xml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1396395651554" ignored="false" />
+    <file path="/OrderListViewAdapter.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1398615142324" ignored="false" />
+    <file path="/ViewModelHelper.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1389567952817" ignored="false" />
+    <file path="/BaseFragment.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1384988781354" ignored="false" />
+    <file path="/OrderDetailsActivityV2.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1384993069205" ignored="false" />
+    <file path="/OffersFragment.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1393683831574" ignored="false" />
+    <file path="/DetailsFragment.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1393683927847" ignored="false" />
+    <file path="/order_details_v2.xml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1384994911290" ignored="false" />
+    <file path="/ServiceFragment.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1393686623313" ignored="false" />
+    <file path="/SharedPreferencesSettingsManager.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1392253248869" ignored="false" />
+    <file path="/InternalStorageSettingsManager.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1385079086587" ignored="false" />
+    <file path="/DialogAsyncTask.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1385081956328" ignored="false" />
+    <file path="C:/android/sdk/extras/android/support/v7/gridlayout/project.properties" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1385132597905" ignored="false" />
+    <file path="/ProgressDialogAsyncTask.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1386108161855" ignored="false" />
+    <file path="/BaseOrdersFragment.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1396396372963" ignored="false" />
+    <file path="/OrdersFragment.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1396308068385" ignored="false" />
+    <file path="/MyOfferOrdersFragment.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1385652317009" ignored="false" />
+    <file path="/FavoriteOrdersFragment.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1386549989210" ignored="false" />
+    <file path="/OfflineDataClient.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1385651735818" ignored="false" />
+    <file path="/OrderFavoritesManager.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1385648917372" ignored="false" />
+    <file path="/LocalOrderFavoritesManager.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1386549530054" ignored="false" />
+    <file path="/ManufacturersActivity.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1392336683633" ignored="false" />
+    <file path="/MakeOfferFragment.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1385593995893" ignored="false" />
+    <file path="/BaseOrdersCommonContextMenuFragment.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1385650144629" ignored="false" />
+    <file path="/BaseOrdersContextMenuFragment.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1385650100576" ignored="false" />
+    <file path="/DependencyResolver.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1395091003744" ignored="false" />
+    <file path="/ProfileActivity.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1396309411337" ignored="false" />
+    <file path="/AuthServiceActivity.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1386200365723" ignored="false" />
+    <file path="/Parameters.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1392242548947" ignored="false" />
+    <file path="/MenuActivity.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1386542691447" ignored="false" />
+    <file path="/MainTabListener.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1386535066121" ignored="false" />
+    <file path="/TabListener.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1386538450332" ignored="false" />
+    <file path="/OrdersTabListener.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1386534609979" ignored="false" />
+    <file path="/AuthMenuActivity.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1395483128459" ignored="false" />
+    <file path="/profile.xml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1396309172070" ignored="false" />
+    <file path="/make_offer.xml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1395614238412" ignored="false" />
+    <file path="/styles.xml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1400808754742" ignored="false" />
+    <file path="/OffersResult.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1387033570024" ignored="false" />
+    <file path="/list_image.xml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1393810227887" ignored="false" />
+    <file path="/ImageListViewAdapter.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1390527996391" ignored="false" />
+    <file path="/ImageLoader.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1389569267302" ignored="false" />
+    <file path="/MakeOfferResult.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1390520749667" ignored="false" />
+    <file path="/ImageDecoder.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1390527976731" ignored="false" />
+    <file path="/ResizableImageView.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1392151519306" ignored="false" />
+    <file path="/list_text_selector.xml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1392244195992" ignored="false" />
+    <file path="/DefaultActivity.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1392252233935" ignored="false" />
+    <file path="/SettingsManagerListener.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1392249706434" ignored="false" />
+    <file path="/LocalizationActivity.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1398613991123" ignored="false" />
+    <file path="/FormActivity.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1393704652635" ignored="false" />
+    <file path="/UsedParts.iml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1394832855540" ignored="false" />
+    <file path="/GCMIntentService.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1395099360104" ignored="false" />
+    <file path="/GcmManager.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1394894911918" ignored="false" />
+    <file path="/GCMBroadcastReceiver.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1394899550187" ignored="false" />
+    <file path="/GCMManager.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1395611838412" ignored="false" />
+    <file path="/SendRegIdToBackendListener.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1395091283935" ignored="false" />
+    <file path="/form.xml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1395480118565" ignored="false" />
+    <file path="/manufacturers.xml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1396307024155" ignored="false" />
+    <file path="/border.xml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1396397197194" ignored="false" />
+    <file path="/border_counter.xml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1398615392801" ignored="false" />
+    <file path="/border_counter_active.xml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1398615420700" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../shop24/src/trunk/volley/gen/com/android/volley/BuildConfig.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1400801922126" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../shop24/src/trunk/volley/gen/com/android/volley/R.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1400722724651" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../shop24/src/trunk/volley/gen/com/android/volley/Manifest.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1400722724651" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../shop24/src/trunk/shop24.iml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1400805124472" ignored="false" />
+    <file path="/shop24.iml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1400721661350" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../shop24/src/trunk/volley/Volley.iml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1400722722392" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../shop24/src/trunk/volley/tests/VolleyTests.iml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1400722722392" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../shop24/src/trunk/appcompat/android-support-v7-appcompat.iml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1400801920694" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../shop24/src/trunk/src/by/shop24/adapters/ProductListAdapter.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1400801916689" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../shop24/src/trunk/res/layout/item_product.xml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1400801916689" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../shop24/src/trunk/AndroidManifest.xml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1400807890085" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../shop24/src/trunk/src/by/shop24/services/impl/FakeDataClient.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1400801916689" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../shop24/src/trunk/src/by/shop24/entities/Product.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1400801916689" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../shop24/src/trunk/res/values/strings.xml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1400801916689" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../shop24/src/trunk/src/by/shop24/activities/MainActivity.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1400807190247" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../shop24/src/trunk/res/menu/main.xml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1400808604145" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../shop24/src/trunk/res/values/styles.xml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1400808767562" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../shop24/src/trunk/res/values/colors.xml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1400806148088" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../shop24/src/trunk/res/drawable/bg_button_sel.xml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1400806577695" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../shop24/src/trunk/res/drawable/anim_progress_bar.xml" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1400806667487" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../shop24/src/trunk/src/by/shop24/activities/base/MainMenuActivity.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1400807731978" ignored="false" />
+    <file path="/MainMenuActivity.java" changelist="048e4437-8067-4efc-bd96-6eec34c7ffcf" time="1400807729388" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/usedparts/services/impl/RestClient.java" line="127" class="com.usedparts.services.impl.RestClient" package="com.usedparts.services.impl">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/usedparts/services/gcm/GCMManager.java" line="165" class="com.usedparts.services.gcm.GCMManager$1" package="com.usedparts.services.gcm">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="UsedParts" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/menu/main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="61" selection-start="111" selection-end="164" vertical-scroll-proportion="-2.04">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list_order.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/list_order.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="0" selection-start="1688" selection-end="1688" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/usedparts/ui/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="131" column="21" selection-start="4966" selection-end="4966" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthMenuActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/usedparts/ui/base/AuthMenuActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="56" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.30512822">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocalizationActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/usedparts/ui/base/LocalizationActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="76" column="25" selection-start="2566" selection-end="2566" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="border_counter_active.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/border_counter_active.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="50" selection-start="2172" selection-end="2172" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="themes.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/android/sdk/extras/android/support/v7/appcompat/res/values/themes.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="17" selection-start="1296" selection-end="1296" vertical-scroll-proportion="-5.48">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="border_counter.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/border_counter.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list_offer.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/list_offer.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="0" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="D:\Projects\uscp\android\release.keystore" />
+    <option name="KEY_ALIAS" value="release" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/res/drawable-hdpi/border.xml" />
+        <option value="$PROJECT_DIR$/src/com/usedparts/services/impl/RestDataClient.java" />
+        <option value="$PROJECT_DIR$/res/values-ru/strings.xml" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/res/values-be/strings.xml" />
+        <option value="$PROJECT_DIR$/src/com/usedparts/ui/base/LocalizationActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/usedparts/ui/adapters/OrderListViewAdapter.java" />
+        <option value="$PROJECT_DIR$/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/res/layout/orders.xml" />
+        <option value="$PROJECT_DIR$/res/menu/main.xml" />
+        <option value="$PROJECT_DIR$/src/com/usedparts/ui/MainActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/list_offer.xml" />
+        <option value="$PROJECT_DIR$/res/layout/list_order.xml" />
+        <option value="$PROJECT_DIR$/res/drawable-hdpi/border_counter.xml" />
+        <option value="$PROJECT_DIR$/res/drawable-hdpi/border_counter_active.xml" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1600" />
+    <option name="height" value="838" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="2" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UsedParts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UsedParts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UsedParts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="usedparts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UsedParts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="usedparts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UsedParts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="usedparts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UsedParts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UsedParts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="ExportedApkPath" value="D:\Projects\uscp\android\UsedParts.apk" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="fileTemplates" />
+    <property name="ExportedModule" value="UsedParts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../shop24/src/trunk" />
+    <property name="AndroidLayoutSelectedEditor" value="text-editor" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="AndroidRunProguardForReleaseBuild" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.usedparts.ui.adapters" />
+      <recent name="com.usedparts.ui" />
+      <recent name="com.usedparts.services" />
+      <recent name="com.usedparts.domain" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\uscp\android\trunk\res\values-be" />
+      <recent name="D:\Projects\uscp\android\trunk\res\drawable-hdpi" />
+      <recent name="D:\Projects\uscp\android\trunk\res\menu" />
+      <recent name="D:\Projects\uscp\android\trunk\res\layout" />
+      <recent name="D:\Projects\UsedParts\Java\res\layout" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.usedparts.ui" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android Application.UsedParts">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="UsedParts" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="UsedParts" />
+      <option name="ACTIVITY_CLASS" value="com.usedparts.ui.MainActivity" />
+      <option name="MODE" value="specific_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Android Application.UsedParts" />
+    </list>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="true" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="false">C:\Users\Samsung\AppData\Roaming\Subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\Projects\uscp\android\trunk" />
+          <option name="myCopyRoot" value="D:\Projects\uscp\android\trunk" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\Projects\uscp\android\trunk\.idea" />
+          <option name="myCopyRoot" value="D:\Projects\uscp\android\trunk\.idea" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\Projects\uscp\android\trunk" />
+          <option name="myCopyRoot" value="D:\Projects\uscp\android\trunk" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="048e4437-8067-4efc-bd96-6eec34c7ffcf" name="Default" comment="" />
+      <created>1383175750901</created>
+      <updated>1383175750901</updated>
+    </task>
+    <task id="LOCAL-00001" summary="- service client implementation">
+      <created>1383701635145</created>
+      <updated>1383701635145</updated>
+    </task>
+    <task id="LOCAL-00002" summary="- UI basics&#10;- testing REST service">
+      <created>1383769588104</created>
+      <updated>1383769588105</updated>
+    </task>
+    <task id="LOCAL-00003" summary="- generic json mapper implementation">
+      <created>1383881763105</created>
+      <updated>1383881763105</updated>
+    </task>
+    <task id="LOCAL-00004" summary="- UI main &amp; login screen implementation">
+      <created>1384208538105</created>
+      <updated>1384208538105</updated>
+    </task>
+    <task id="LOCAL-00005" summary="- service implementation&#10;- UI async call for main screen implemented">
+      <created>1384820146150</created>
+      <updated>1384820146150</updated>
+    </task>
+    <task id="LOCAL-00006" summary="- remote images">
+      <created>1389569780121</created>
+      <updated>1389569780121</updated>
+    </task>
+    <task id="LOCAL-00007" summary="make offer&#10;- images management&#10;- post request implementation">
+      <created>1390177481151</created>
+      <updated>1390177481151</updated>
+    </task>
+    <task id="LOCAL-00008" summary="- filter by manufacturer implemented&#10;- language selector implementation&#10;- refactoring">
+      <created>1392253651148</created>
+      <updated>1392253651148</updated>
+    </task>
+    <task id="LOCAL-00009" summary="- language selector implemented&#10;">
+      <created>1392339396147</created>
+      <updated>1392339396147</updated>
+    </task>
+    <task id="LOCAL-00010" summary="auto focus fixed">
+      <created>1392342447105</created>
+      <updated>1392342447105</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1600" height="838" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32599118" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5968436" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35724744" sideWeight="0.63914174" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35829663" sideWeight="0.36085826" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3191801" sideWeight="0.60208064" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32599118" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0" sideWeight="0.64170337" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17490247" sideWeight="0.64170337" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32599118" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32834852" sideWeight="0.64170337" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11904762" sideWeight="0.67144907" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3426528" sideWeight="0.64170337" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23348017" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value="auto focus fixed" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="- JAVA project import" />
+    <MESSAGE value="- service client implementation" />
+    <MESSAGE value="- UI basics&#10;- testing REST service" />
+    <MESSAGE value="- generic json mapper implementation" />
+    <MESSAGE value="- UI main &amp; login screen implementation" />
+    <MESSAGE value="- service implementation&#10;- UI async call for main screen implemented" />
+    <MESSAGE value="- remote images" />
+    <MESSAGE value="make offer&#10;- images management&#10;- post request implementation" />
+    <MESSAGE value="- filter by manufacturer implemented&#10;- language selector implementation&#10;- refactoring" />
+    <MESSAGE value="- language selector implemented&#10;" />
+    <MESSAGE value="auto focus fixed" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="28" selection-start="2937" selection-end="2937" vertical-scroll-proportion="8.76">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/android/sdk/sources/android-14/android/app/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4022" column="16" selection-start="167882" selection-end="167882" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values-be/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="46" selection-start="3541" selection-end="3541" vertical-scroll-proportion="-6.6">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/usedparts/ui/adapters/OrderListViewAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="53" selection-start="2765" selection-end="2765" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="0" selection-start="2763" selection-end="2763" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/orders.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="38" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/list_offer.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/list_order.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="0" selection-start="1688" selection-end="1688" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/border_counter.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/border_counter_active.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="50" selection-start="2172" selection-end="2172" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/android/sdk/extras/android/support/v7/appcompat/res/values/themes.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="17" selection-start="1296" selection-end="1296" vertical-scroll-proportion="-5.48">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/menu/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="61" selection-start="111" selection-end="164" vertical-scroll-proportion="-2.04">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/usedparts/ui/base/LocalizationActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="25" selection-start="2566" selection-end="2566" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/usedparts/ui/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="131" column="21" selection-start="4966" selection-end="4966" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/usedparts/ui/base/AuthMenuActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="56" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.30512822">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android (UsedParts)|Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>Android 4.0 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>android-support-v7-appcompat</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>apache-mime4j-0.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

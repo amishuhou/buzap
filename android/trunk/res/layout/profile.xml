@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+
+        >
+
+    <LinearLayout style="@style/profileLine"
+            >
+        <TextView style="@style/profileLabel"
+                  android:text="@string/profile_language"
+                />
+        <Spinner style="@style/profileValue"
+                 android:id="@+id/spinnerLanguage"
+                 android:entries="@array/language_strings"
+                 android:focusableInTouchMode="true"/>
+    </LinearLayout>
+
+
+    <LinearLayout android:id="@+id/profile_auth_info"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            >
+        <LinearLayout style="@style/profileLine">
+            <TextView style="@style/profileLabel"
+                      android:text="@string/profile_name"
+                    />
+            <TextView style="@style/profileValue"
+                      android:id="@+id/textProfileName"
+                    />
+        </LinearLayout>
+        <LinearLayout style="@style/profileLine">
+            <TextView style="@style/profileLabel"
+                      android:text="@string/profile_email"
+                    />
+            <TextView style="@style/profileValue"
+                      android:id="@+id/textProfileEmail"
+                    />
+        </LinearLayout>
+        <!--<LinearLayout style="@style/profileLine">-->
+            <!--<TextView style="@style/profileLabel"-->
+                      <!--android:text="@string/profile_phone"-->
+                    <!--/>-->
+            <!--<TextView style="@style/profileValue"-->
+                      <!--android:id="@+id/textProfilePhone"-->
+                    <!--/>-->
+        <!--</LinearLayout>-->
+        <LinearLayout style="@style/profileLine">
+            <TextView style="@style/profileLabel"
+                      android:text="@string/car_count"
+                    />
+            <TextView style="@style/profileValue"
+                      android:id="@+id/textCarCount"
+                    />
+        </LinearLayout>
+        <LinearLayout style="@style/profileLine">
+            <TextView style="@style/profileLabel"
+                      android:text="@string/offer_count"
+                    />
+            <TextView style="@style/profileValue"
+                      android:id="@+id/textOfferCount"
+                    />
+        </LinearLayout>
+
+        <LinearLayout style="@style/profileLine">
+            <TextView style="@style/profileLabel"
+                      android:text="@string/profile_balance"
+                    />
+            <TextView style="@style/profileValue"
+                      android:id="@+id/textProfileBalance"
+                    />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

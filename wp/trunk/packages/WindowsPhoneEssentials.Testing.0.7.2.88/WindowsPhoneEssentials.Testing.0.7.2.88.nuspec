@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>WindowsPhoneEssentials.Testing</id>
+    <version>0.7.2.88</version>
+    <title>WindowsPhoneEssentials.Testing</title>
+    <authors>Jake Ginnivan,  Brendan Kowitz</authors>
+    <owners>Jake Ginnivan,  Brendan Kowitz</owners>
+    <projectUrl>http://wp7essentials.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>a collection of wp7 helper classes which make it simpler to write tests for wp7</description>
+    <summary>a collection of wp7 helper classes which make it simpler to write tests for wp7</summary>
+    <releaseNotes />
+    <copyright />
+    <language />
+    <tags>windows phone 7 wp7 testing unit testing</tags>
+    <dependencies>
+      <dependency id="WindowsPhoneEssentials" version="[0.7.2.88]" />
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">pro.buzap.by</string>
+    <string name="manufacturers">Марки</string>
+    <string name="login">Войти</string>
+    <string name="logout">Выйти</string>
+    <string name="profile">Профиль</string>
+    <string name="registration">Регистрация</string>
+    <string name="username">E-mail</string>
+    <string name="password">Пароль</string>
+    <string name="ok">Ок</string>
+    <string name="cancel">Отмена</string>
+    <string name="loading">Загрузка...</string>
+    <string name="list_of_manufacturers">Список марок</string>
+    <string name="service_error">Ошибка сервиса</string>
+    <string name="unexpected_error">Ошибка</string>
+    <string name="form_validation_error">Ошибка</string>
+    <string name="all">-ВСЕ-</string>
+    <string name="order_offers">Предложения</string>
+    <string name="order_details">Подробно</string>
+    <string name="order_makeoffer">Сделать предложение</string>
+    <string name="login_success">Ок</string>
+    <string name="registration_success">Ок</string>
+    <string name="name">Имя</string>
+    <string name="phone">Телефон</string>
+
+    <string name="need_restart">Смена языка требует перезагрузки приложения</string>
+    <string name="are_you_sure">Перезагрузить?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+
+    <string name="no_orders">Нет заявок</string>
+    <string name="no_offers">Нет предложений</string>
+    <string name="total">Всего найдено</string>
+    <string name="manufacturer">Марка</string>
+
+    <string name="orders">Заявки</string>
+    <string name="myOfferOrders">Мои заявки</string>
+    <string name="favoriteOrders">Избранное</string>
+
+    <string name="order_details">Заявка</string>
+
+    <string name="remove_from_bookmarks">Удалить из избранного</string>
+    <string name="add_to_bookmarks">Добавить в избранное</string>
+
+    <string name="profile_name">Имя</string>
+    <string name="profile_balance">Баланс</string>
+    <string name="profile_language">Язык интерфейса</string>
+    <string name="profile_phone">Телефон</string>
+    <string name="profile_email">E-mail</string>
+
+    <string name="email_error">Пожалуйста введите правильный e-mail</string>
+    <string name="password_empty_error">Пожалуйста введите пароль</string>
+    <string name="name_empty_error">Пожалуйста введите имя</string>
+
+    <string name="need_authentication">Пожалуйста, войдите в систему под своей учетной записью</string>
+
+    <string name="make_offer">Предложить</string>
+    <string name="make_offer_success">Предложение было сделано успешно</string>
+    <string name="make_offer_price_error">Пожалуйста введите правильную цену в $</string>
+
+    <string name="photos">Фотографии</string>
+    <string name="no_photos">-нет-</string>
+
+    <string name="choose_organization">Выберите тип организации</string>
+    <integer-array name="organization_type_ids">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="organization_type_strings">
+        <item>Частное лицо</item>
+        <item>ООО</item>
+        <item>ИП</item>
+    </string-array>
+
+    <string-array name="language_ids">
+        <item>en</item>
+        <item>be</item>
+        <item>ru</item>
+    </string-array>
+    <string-array name="language_strings">
+        <item>Английский</item>
+        <item>Белорусский</item>
+        <item>Русский</item>
+    </string-array>
+
+    <string name="price">Цена (USD)</string>
+
+    <string name="choose_availability">Время получения</string>
+    <integer-array name="availability_ids">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+    <string-array name="availability_strings">
+        <item>--</item>
+        <item>сейчас</item>
+        <item>1–3 дня</item>
+        <item>4–7 дней</item>
+        <item>7+ дней</item>
+    </string-array>
+
+    <string name="choose_warranty">Гарантия</string>
+    <integer-array name="warranty_ids">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+    <string-array name="warranty_strings">
+        <item>--</item>
+        <item>нет</item>
+        <item>3 дня</item>
+        <item>7 дней</item>
+        <item>другое</item>
+    </string-array>
+
+    <string name="choose_delivery">Доставка</string>
+    <integer-array name="delivery_ids">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+    <string-array name="delivery_strings">
+        <item>--</item>
+        <item>нет</item>
+        <item>возможна</item>
+        <item>бесплатная</item>
+        <item>платная</item>
+    </string-array>
+
+    <string name="choose_condition">Состояние</string>
+    <integer-array name="condition_ids">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="condition_strings">
+        <item>--</item>
+        <item>очень плохое</item>
+        <item>плохое</item>
+        <item>нормальное</item>
+        <item>хорошее</item>
+        <item>отличное</item>
+    </string-array>
+
+    <string name="availability">доступно</string>
+    <string name="condition">состояние</string>
+    <string name="delivery">доставка</string>
+    <string name="warranty">гарантия</string>
+
+    <string name="select_picture">Выберите фото</string>
+    <string name="remove_image">Удалить</string>
+
+    <string name="filter">Фильтр</string>
+    <string name="refresh">Обновить</string>
+
+    <string name="please_login">Пожалуйста войдите в систему под своим аккаунтом. Если у вас нету аккаунта, пройдите регистрацию</string>
+
+    <string name="car_count">Кол-во автомобилей</string>
+    <string name="offer_count">Кол-во предложений</string>
+
+</resources>
+

@@ -1,0 +1,32 @@
+﻿<UserControl x:Class="UsedParts.UI.Views.OrderDetails.OrderDetailsView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:userControls="clr-namespace:UsedParts.UI.Controls" mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    d:DesignHeight="480" d:DesignWidth="480">
+    
+    <ScrollViewer>
+        <StackPanel x:Name="LayoutRoot" Margin="12 0 0 64">
+            <TextBlock Text="{Binding Order.Name}" TextWrapping="Wrap" FontWeight="Bold"></TextBlock>
+            <TextBlock Text="{Binding Order.Body}" TextWrapping="Wrap"></TextBlock>
+            <ItemsControl ItemsSource="{Binding Order.Images}" 
+                      HorizontalAlignment="Left" HorizontalContentAlignment="Left">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Image Source="{Binding}" Width="436" Margin="0,8,0,0"></Image>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+            <!--<userControls:ImageGallery Margin="-24 24 -24 24" Images="{Binding Order.Images}"
+                                   ImageWidth="450.7462686567164"
+                                   ImageHeight="302"
+                                   >
+            </userControls:ImageGallery>-->
+        </StackPanel>
+
+    </ScrollViewer>
+</UserControl>

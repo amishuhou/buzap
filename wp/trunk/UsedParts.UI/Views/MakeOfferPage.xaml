@@ -1,0 +1,139 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="UsedParts.UI.Views.MakeOfferPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:cal="clr-namespace:Caliburn.Micro;assembly=Caliburn.Micro" 
+    xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+    xmlns:Controls="clr-namespace:UsedParts.UI.Views.Controls"
+    xmlns:Behaviors="clr-namespace:UsedParts.UI.Interactions.Behaviors"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    toolkit:TiltEffect.IsTiltEnabled="True"
+    Style="{StaticResource DefaultPageStyle}"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <phone:PhoneApplicationPage.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="Margin" Value="12,0,0,0"/>
+        </Style>
+        <Style TargetType="toolkit:ListPicker">
+            <Setter Property="ExpansionMode" Value="FullScreenOnly"/>
+            <Setter Property="ItemTemplate">
+                <Setter.Value>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding Name}" />
+                    </DataTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="FullModeItemTemplate">
+                <Setter.Value>
+                    <DataTemplate>
+                        <TextBlock FontSize="{StaticResource PhoneFontSizeExtraLarge}" Margin="0,12,0,12" Text="{Binding Name}" />
+                    </DataTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </phone:PhoneApplicationPage.Resources>
+
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <toolkit:PerformanceProgressBar
+                VerticalAlignment="Top"
+                Grid.Row="0"
+                IsIndeterminate="True"
+                Visibility="{Binding IsBusy, Converter={StaticResource BoolToVisibilityConverter}}" />
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle" Text="{Binding Title}" 
+                       Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="PageTitle" Text="{Binding Resources.MakeOfferTitle, Source={StaticResource AppResourcesManager}}" 
+                       Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <StackPanel x:Name="NonAuthContentPanel" Grid.Row="1" Margin="12,0,12,0"
+                    Visibility="{Binding IsAuthorized, Converter={StaticResource InvertedBoolToVisibilityConverter}}"                    
+                    >
+            <TextBlock Text="{Binding Resources.PleaseLoginOrRegister, Source={StaticResource AppResourcesManager}}"
+                       TextWrapping="Wrap" />
+            <Button x:Name="NavigateToLogin" Content="{Binding Resources.Login, Source={StaticResource AppResourcesManager}}" />
+            <Button x:Name="NavigateToRegistration" Content="{Binding Resources.Register, Source={StaticResource AppResourcesManager}}" />
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <ScrollViewer x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0"
+                    Visibility="{Binding IsAuthorized, Converter={StaticResource BoolToVisibilityConverter}}"                      
+                      >
+            <StackPanel Margin="0,0,0,96">
+                <TextBlock Text="{Binding Resources.Price, Source={StaticResource AppResourcesManager}}"></TextBlock>
+                <TextBox x:Name="Price" Text="{Binding Price, Mode=TwoWay}" InputScope="Number">
+                    <i:Interaction.Behaviors>
+                        <Behaviors:TextBoxUpdateBindingBehavior/>
+                        <Behaviors:FocusNextOnEnterPressedBehavior NextControlName="Condition"/>
+                    </i:Interaction.Behaviors>
+                </TextBox>
+                <TextBlock Text="{Binding Resources.Condition, Source={StaticResource AppResourcesManager}}"></TextBlock>
+                <toolkit:ListPicker ItemsSource="{Binding Dictionaries.Conditions}"
+                                    x:Name="Condition"
+                                SelectedItem="{Binding Condition, Mode=TwoWay}">
+                </toolkit:ListPicker>
+
+                <TextBlock Text="{Binding Resources.Availability, Source={StaticResource AppResourcesManager}}"></TextBlock>
+                <toolkit:ListPicker ItemsSource="{Binding Dictionaries.Availabilities}"
+                                SelectedItem="{Binding Availability, Mode=TwoWay}">
+                </toolkit:ListPicker>
+                <TextBlock Text="{Binding Resources.Warranty, Source={StaticResource AppResourcesManager}}"></TextBlock>
+                <toolkit:ListPicker ItemsSource="{Binding Dictionaries.Warranties}"
+                                SelectedItem="{Binding Warranty, Mode=TwoWay}">
+                </toolkit:ListPicker>
+                <TextBlock Text="{Binding Resources.Delivery, Source={StaticResource AppResourcesManager}}"></TextBlock>
+                <toolkit:ListPicker ItemsSource="{Binding Dictionaries.Deliveries}"
+                                SelectedItem="{Binding Delivery, Mode=TwoWay}">
+                </toolkit:ListPicker>
+
+                <Button Content="{Binding Resources.AddImageFromSaved, Source={StaticResource AppResourcesManager}}" 
+                        Visibility="{Binding IsImageAmountReached, Converter={StaticResource InvertedBoolToVisibilityConverter}}"
+                    cal:Message.Attach="AddImageFromSaved">
+                </Button>
+                <Button Content="{Binding Resources.AddImageUsingCamera, Source={StaticResource AppResourcesManager}}" 
+                        Visibility="{Binding IsImageAmountReached, Converter={StaticResource InvertedBoolToVisibilityConverter}}"
+                    cal:Message.Attach="AddImageUsingCamera">
+                </Button>
+                <ItemsControl x:Name="Images" ItemsSource="{Binding Images}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Margin="0,0,0,16">
+                                <Image Source="{Binding Converter={StaticResource FileToImageSourceConverter}}" MaxWidth="440"></Image>
+                                <Button Content="{Binding Resources.RemoveImage, Source={StaticResource AppResourcesManager}}" 
+                                    cal:Message.Attach="RemoveImage($dataContext)"></Button>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+
+
+            </StackPanel>
+
+        </ScrollViewer>
+
+        <Controls:FormAppBar />
+
+
+    </Grid>
+
+</phone:PhoneApplicationPage>

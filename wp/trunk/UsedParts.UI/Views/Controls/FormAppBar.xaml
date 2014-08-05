@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="UsedParts.UI.Views.Controls.FormAppBar"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:calAppBar="clr-namespace:Caliburn.Micro.BindableAppBar;assembly=Caliburn.Micro.BindableAppBar"
+             xmlns:cal="clr-namespace:Caliburn.Micro;assembly=Caliburn.Micro" mc:Ignorable="d"
+    >
+
+    <calAppBar:BindableAppBar x:Name="AppBar" BarOpacity="0.9">
+        <calAppBar:BindableAppBarButton 
+                Text="{Binding Resources.Ok, Source={StaticResource AppResourcesManager}}" 
+                IconUri="/Resources/AppBar/ApplicationBar.Check.png" 
+                IsEnabled="{Binding IsBusy, Converter={StaticResource InvertedBoolConverter}}"                    
+                cal:Message.Attach="Submit"
+            />
+    </calAppBar:BindableAppBar>
+</UserControl>
